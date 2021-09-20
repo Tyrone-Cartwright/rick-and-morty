@@ -16,3 +16,5 @@
 
 - ### Cascading Style Sheet(CSS)
 - ### JavaScript
+
+- ### Rick and Morty API[https://rickandmortyapi.com/documentation/#rest]
