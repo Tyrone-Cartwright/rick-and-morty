@@ -12,6 +12,10 @@ body {
   overflow: hidden;
 }
 
+h3 {
+  z-index: 1000;
+}
+
 .img-rm {
   margin: 20px 675px;
 }
