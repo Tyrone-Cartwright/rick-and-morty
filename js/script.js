@@ -37,14 +37,14 @@ $(function () {
 
   function render() {
     const rmContainer = rickMortyData.results.map(function (adventure) {
-      return `<div>
-                <img src="${adventure.image}" alt="image" />
-                <h4>Name: ${adventure.name}</h4>
-                <p>Gender: ${adventure.gender}</p>
-                <p>Species: ${adventure.species}</p>
-                <p>Location: ${adventure.location.name}</p>
-                <p>Origin: ${adventure.origin.name}</p>
-                <p>Status: ${adventure.status}</p>
+      return `<div id=rm-container>
+                <img class="rm-image" src="${adventure.image}" alt="image" />
+                <h4 class="rm-name">Name: ${adventure.name}</h4>
+                <p class="rm-gender">Gender: ${adventure.gender}</p>
+                <p class="rm-species">Species: ${adventure.species}</p>
+                <p class="rm-location">Location: ${adventure.location.name}</p>
+                <p class="rm-origin">Origin: ${adventure.origin.name}</p>
+                <p class="rm-status">Status: ${adventure.status}</p>
               </div>`;
     });
     $rmInfo.html(rmContainer);
