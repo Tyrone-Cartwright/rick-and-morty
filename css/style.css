@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-rm {
+  margin: 0 675px;
+}
+
+#rm-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 60px;
+}
+
+div {
+  margin: 20px;
+}

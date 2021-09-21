@@ -36,15 +36,15 @@ $(function () {
   }
 
   function render() {
-    const rmContainer = [rickMortyData].map(function (adventure) {
+    const rmContainer = rickMortyData.results.map(function (adventure) {
       return `<div>
-                <img src="${adventure.results[0].image}" alt="image" />
-                <h4>Name: ${adventure.results[0].name}</h4>
-                <p>Gender: ${adventure.results[0].gender}</p>
-                <p>Species: ${adventure.results[0].species}</p>
-                <p>Location: ${adventure.results[0].location.name}</p>
-                <p>Origin: ${adventure.results[0].origin.name}</p>
-                <p>Status: ${adventure.results[0].status}</p>
+                <img src="${adventure.image}" alt="image" />
+                <h4>Name: ${adventure.name}</h4>
+                <p>Gender: ${adventure.gender}</p>
+                <p>Species: ${adventure.species}</p>
+                <p>Location: ${adventure.location.name}</p>
+                <p>Origin: ${adventure.origin.name}</p>
+                <p>Status: ${adventure.status}</p>
               </div>`;
     });
     $rmInfo.html(rmContainer);
