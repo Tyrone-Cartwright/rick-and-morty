@@ -17,7 +17,9 @@
 - ### Cascading Style Sheet(CSS)
 - ### JavaScript
 
-- ### Rick and Morty API[https://rickandmortyapi.com/documentation/#rest]
+- ### Rick and Morty API [https://rickandmortyapi.com/documentation/#rest]
+
+- ### jQuery Slick Plugin [http://kenwheeler.github.io/slick/]
 
 # Screenshots
 

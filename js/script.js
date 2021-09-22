@@ -47,6 +47,19 @@ $(function () {
                 <p class="rm-status">Status: ${adventure.status}</p>
               </div>`;
     });
+
     $rmInfo.html(rmContainer);
+    $rmInfo.slick({
+      // infinite: false,
+      // autoplay: true,
+      // autoplaySpeed: 3500,
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      prevArrow:
+        '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
+      nextArrow:
+        '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
+      // Responsive
+    });
   }
 });
