@@ -34,3 +34,15 @@
 ### Mobile
 
 ## <img src='./assets/mobile-rm.png' width='200px' height='300px'>
+
+### Deployed
+
+## <img src='./assets/deployed.png' width='500px' height='300px'>
+
+### Background image
+
+## <img src="./assets/rick-morty-bg.png">
+
+---
+
+### Click here for deployed site["http://tyronecartwright.com"]

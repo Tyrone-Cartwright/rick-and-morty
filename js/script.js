@@ -57,6 +57,8 @@ $(function () {
       // autoplaySpeed: 3500,
       slidesToShow: 5,
       slidesToScroll: 3,
+      centerMode: true,
+      centerPadding: '60px',
       prevArrow:
         '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
       nextArrow:
