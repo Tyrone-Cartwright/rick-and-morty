@@ -45,4 +45,4 @@
 
 ---
 
-### Click here for deployed site["http://tyronecartwright.com"]
+[Click here](http://tyronecartwright.com) to see deployed Project
