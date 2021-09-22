@@ -37,14 +37,16 @@ $(function () {
 
   function render() {
     const rmContainer = rickMortyData.results.map(function (adventure) {
-      return `<div id=rm-container>
-                <img class="rm-image" src="${adventure.image}" alt="image" />
-                <h4 class="rm-name">Name: ${adventure.name}</h4>
-                <p class="rm-gender">Gender: ${adventure.gender}</p>
-                <p class="rm-species">Species: ${adventure.species}</p>
-                <p class="rm-location">Location: ${adventure.location.name}</p>
-                <p class="rm-origin">Origin: ${adventure.origin.name}</p>
-                <p class="rm-status">Status: ${adventure.status}</p>
+      return `<div class="slick-reform">
+                  <div id=rm-container>
+                  <img class="rm-image" src="${adventure.image}" alt="image" />
+                  <h4 class="rm-name">Name: ${adventure.name}</h4>
+                  <p class="rm-gender">Gender: ${adventure.gender}</p>
+                  <p class="rm-species">Species: ${adventure.species}</p>
+                  <p class="rm-location">Location: ${adventure.location.name}</p>
+                  <p class="rm-origin">Origin: ${adventure.origin.name}</p>
+                  <p class="rm-status">Status: ${adventure.status}</p>
+                </div>
               </div>`;
     });
 
@@ -59,7 +61,29 @@ $(function () {
         '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
       nextArrow:
         '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
-      // Responsive
+      // responsive: [
+      //   {
+      //     breakpoint: 1024,
+      //     settings: {
+      //       slidesToShow: 5,
+      //       slidesToScroll: 5,
+      //     },
+      //   },
+      //   {
+      //     breakpoint: 600,
+      //     settings: {
+      //       slidesToShow: 3,
+      //       slidesToScroll: 3,
+      //     },
+      //   },
+      //   {
+      //     breakpoint: 480,
+      //     settings: {
+      //       slidesToShow: 2,
+      //       slidesToScroll: 2,
+      //     },
+      //   },
+      // ],
     });
   }
 });

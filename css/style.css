@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-image: url(/assets/rick-morty-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  min-height: 100vh;
 }
 
 h3 {
@@ -59,10 +63,21 @@ h3 {
   cursor: pointer;
 }
 
-#rm-container {
+/* #rm-container {
   margin: 20px;
   width: 500px;
-  height: 500px;
+  height: 600px;
+  border: none;
+  border-radius: 10px;
+  background: hsl(187, 100%, 39%);
+  box-shadow: 2px 2px 14px hsl(187, 100%, 34%),
+    -3px -3px 8px hsl(187, 100%, 44%);
+} */
+
+.slick-reform {
+  margin: 20px;
+  width: 500px;
+  height: 505px;
   border: none;
   border-radius: 10px;
   background: hsl(187, 100%, 39%);
@@ -77,7 +92,7 @@ h3 {
 
 .rm-image {
   border-radius: 5px 5px 0 0;
-  width: 335px;
+  width: 100%;
 }
 
 .rm-name {
