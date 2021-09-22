@@ -17,9 +17,18 @@
 - ### Cascading Style Sheet(CSS)
 - ### JavaScript
 
-# Screenshot
-
-![desktop](./assets/desktop-rm.png)
-![mobile](./assets/mobile-rm.png)
-
 - ### Rick and Morty API[https://rickandmortyapi.com/documentation/#rest]
+
+# Screenshots
+
+### Title
+
+## <img src='./assets/rick-morty.png' width='300px' >
+
+### Desktop
+
+## <img src='./assets/desktop-rm.png' width='200px'>
+
+### Mobile
+
+## <img src='./assets/mobile-rm.png' width='200px' height='300px'>
