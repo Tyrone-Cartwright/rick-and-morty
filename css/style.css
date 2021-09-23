@@ -119,7 +119,7 @@ h3 {
 }
 
 /* Media Query */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1440px) {
   #slick-reform {
     width: 100%;
     height: 510px;
