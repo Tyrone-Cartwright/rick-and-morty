@@ -50,3 +50,17 @@
 [Click here](http://tyronecartwright.com) to see deployed Project
 
 ## Future Enhancements
+
+- Implement a navigation menu that allows a user - to select
+
+### Characters
+
+- select an individual character.
+
+### Watch
+
+- Ability to list episodes and playable clips.
+
+### episodes
+
+- Playable clips
