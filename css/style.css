@@ -110,44 +110,58 @@ h3 {
 
 .rm-footer {
   text-align: center;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   color: #00c6e1;
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
 }
 
 /* Media Query */
-@media screen and (min-width: 1024px) {
-  #slick-reform .rm-container {
+@media screen and (max-width: 1024px) {
+  #slick-reform {
     width: 100%;
+    height: 500px;
+  }
+  .img-rm {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
     bottom: -50px;
-    left: 50%;
+    left: 35%;
   }
   #rm-info .next-arrow ion-icon {
     position: absolute;
     bottom: -50px;
-    right: 45%;
+    right: 35%;
+  }
+  .rm-footer {
+    margin-top: 486px;
   }
 }
 
 @media screen and (max-width: 600px) {
   #slick-reform {
     width: 230px;
+    height: 460px;
   }
   .img-rm {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 62%;
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
-    bottom: -40px;
+    bottom: -70px;
     left: 25%;
   }
   #rm-info .next-arrow ion-icon {
     position: absolute;
-    bottom: -40px;
+    bottom: -70px;
     right: 30%;
   }
   .rm-footer {
@@ -156,10 +170,14 @@ h3 {
 }
 
 @media screen and (max-width: 375px) {
+  #slick-reform {
+    width: 230px;
+    height: 520px;
+  }
   .img-rm {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
   }
   .rm-container p {
     font-size: 1.125rem;

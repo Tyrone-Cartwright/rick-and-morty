@@ -26,6 +26,7 @@ $(function () {
       function (data) {
         // save the data locally
         rickMortyData = data;
+        console.log(data);
         // transfer the data to the DOM
         render();
       },
@@ -62,7 +63,7 @@ $(function () {
         '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1025,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -73,7 +74,7 @@ $(function () {
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 601,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -85,11 +86,11 @@ $(function () {
           },
         },
         {
-          breakpoint: 375,
+          breakpoint: 376,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            // respondTo: 'window',
+            respondTo: 'slider',
             prevArrow:
               '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
             nextArrow:
