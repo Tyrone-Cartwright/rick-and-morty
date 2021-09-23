@@ -119,7 +119,7 @@ h3 {
 }
 
 /* Media Query */
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   #slick-reform {
     width: 100%;
     height: 510px;
@@ -146,7 +146,7 @@ h3 {
     left: -50%;
     right: -50%;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   #slick-reform {
@@ -157,7 +157,7 @@ h3 {
   .img-rm {
     display: block;
     margin: 0 auto;
-    width: 60%;
+    width: 45%;
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
