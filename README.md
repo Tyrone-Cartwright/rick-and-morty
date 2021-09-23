@@ -17,9 +17,11 @@
 - ### Cascading Style Sheet(CSS)
 - ### JavaScript
 
-- ### Rick and Morty API [https://rickandmortyapi.com/documentation/#rest]
+- ### jQuery
 
 - ### jQuery Slick Plugin [http://kenwheeler.github.io/slick/]
+
+- ### Rick and Morty API [https://rickandmortyapi.com/documentation/#rest]
 
 # Screenshots
 
@@ -29,11 +31,11 @@
 
 ### Desktop
 
-## <img src='./assets/desktop-rm.png' width='200px'>
+## <img src='./assets/desktop-rm.png' width='400px' height='300px'>
 
 ### Mobile
 
-## <img src='./assets/mobile-rm.png' width='200px' height='300px'>
+## <img src='./assets/mobile-rm.png' height='300px'>
 
 ### Deployed
 
@@ -46,3 +48,5 @@
 ---
 
 [Click here](http://tyronecartwright.com) to see deployed Project
+
+## Future Enhancements

@@ -37,8 +37,8 @@ $(function () {
 
   function render() {
     const rmContainer = rickMortyData.results.map(function (adventure) {
-      return `<div class="slick-reform">
-                  <div id=rm-container>
+      return `<div id="slick-reform">
+                  <div class=rm-container>
                   <img class="rm-image" src="${adventure.image}" alt="image" />
                   <h4 class="rm-name">Name: ${adventure.name}</h4>
                   <p class="rm-gender">Gender: ${adventure.gender}</p>
@@ -52,40 +52,51 @@ $(function () {
 
     $rmInfo.html(rmContainer);
     $rmInfo.slick({
-      // infinite: false,
-      // autoplay: true,
-      // autoplaySpeed: 3500,
+      infinite: false,
+      speed: 300,
       slidesToShow: 5,
       slidesToScroll: 3,
-      centerMode: true,
-      centerPadding: '60px',
       prevArrow:
         '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
       nextArrow:
         '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
-      // responsive: [
-      //   {
-      //     breakpoint: 1024,
-      //     settings: {
-      //       slidesToShow: 5,
-      //       slidesToScroll: 5,
-      //     },
-      //   },
-      //   {
-      //     breakpoint: 600,
-      //     settings: {
-      //       slidesToShow: 3,
-      //       slidesToScroll: 3,
-      //     },
-      //   },
-      //   {
-      //     breakpoint: 480,
-      //     settings: {
-      //       slidesToShow: 2,
-      //       slidesToScroll: 2,
-      //     },
-      //   },
-      // ],
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow:
+              '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
+            nextArrow:
+              '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            // respondTo: 'window',
+            prevArrow:
+              '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
+            nextArrow:
+              '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
+          },
+        },
+        {
+          breakpoint: 375,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            // respondTo: 'window',
+            prevArrow:
+              '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
+            nextArrow:
+              '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
+          },
+        },
+      ],
     });
   }
 });

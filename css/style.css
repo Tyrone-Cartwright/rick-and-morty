@@ -33,6 +33,7 @@ h3 {
   position: relative;
 }
 
+/* Pagination Previous Button */
 #rm-info .prev-arrow ion-icon {
   position: absolute;
   bottom: -50px;
@@ -48,6 +49,7 @@ h3 {
   cursor: pointer;
 }
 
+/* Pagination Next Button */
 #rm-info .next-arrow ion-icon {
   position: absolute;
   bottom: -50px;
@@ -63,21 +65,10 @@ h3 {
   cursor: pointer;
 }
 
-/* #rm-container {
+#slick-reform {
   margin: 20px;
   width: 500px;
-  height: 600px;
-  border: none;
-  border-radius: 10px;
-  background: hsl(187, 100%, 39%);
-  box-shadow: 2px 2px 14px hsl(187, 100%, 34%),
-    -3px -3px 8px hsl(187, 100%, 44%);
-} */
-
-.slick-reform {
-  margin: 20px;
-  width: 500px;
-  height: 505px;
+  /* height: 505px; */
   border: none;
   border-radius: 10px;
   background: hsl(187, 100%, 39%);
@@ -85,7 +76,7 @@ h3 {
     -3px -3px 8px hsl(187, 100%, 44%);
 }
 
-#rm-container p {
+.rm-container p {
   margin-bottom: 10px;
   padding-left: 5px;
   font-size: 1.125rem;
@@ -124,17 +115,71 @@ h3 {
 }
 
 /* Media Query */
-@media screen and (max-width: 480px) and (min-width: 768px) {
-  #rm-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (min-width: 1024px) {
+  #slick-reform .rm-container {
+    width: 100%;
   }
+  #rm-info .prev-arrow ion-icon {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+  }
+  #rm-info .next-arrow ion-icon {
+    position: absolute;
+    bottom: -50px;
+    right: 45%;
+  }
+}
 
-  .rm-container {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 50%;
+@media screen and (max-width: 600px) {
+  #slick-reform {
+    width: 230px;
+  }
+  .img-rm {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #rm-info .prev-arrow ion-icon {
+    position: absolute;
+    bottom: -40px;
+    left: 25%;
+  }
+  #rm-info .next-arrow ion-icon {
+    position: absolute;
+    bottom: -40px;
+    right: 30%;
+  }
+  .rm-footer {
+    margin-top: 3.0625rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-rm {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .rm-container p {
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  #rm-info .prev-arrow ion-icon {
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
+  }
+  #rm-info .next-arrow ion-icon {
+    position: absolute;
+    bottom: -50px;
+    right: 30%;
+  }
+  .rm-footer {
+    margin-top: 6.0625rem;
+  }
+  .rm-footer p {
+    font-size: 0.875rem;
   }
 }
