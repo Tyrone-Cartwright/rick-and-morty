@@ -36,7 +36,7 @@ h3 {
 /* Pagination Previous Button */
 #rm-info .prev-arrow ion-icon {
   position: absolute;
-  bottom: -50px;
+  top: -50px;
   left: 45%;
   border-radius: 50%;
   color: #fff;
@@ -52,7 +52,7 @@ h3 {
 /* Pagination Next Button */
 #rm-info .next-arrow ion-icon {
   position: absolute;
-  bottom: -50px;
+  top: -50px;
   right: 45%;
   border-radius: 50%;
   color: #fff;
@@ -119,28 +119,61 @@ h3 {
 }
 
 /* Media Query */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1200px) {
   #slick-reform {
     width: 100%;
-    height: 500px;
+    height: 510px;
+    margin-top: 40px;
   }
   .img-rm {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
-    bottom: -50px;
+    top: -30px;
+    left: 37%;
+  }
+  #rm-info .next-arrow ion-icon {
+    position: absolute;
+    top: -30px;
+    right: 38%;
+  }
+  .rm-footer {
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #slick-reform {
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+  }
+  .img-rm {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  #rm-info .prev-arrow ion-icon {
+    position: absolute;
+    top: -30px;
     left: 35%;
   }
   #rm-info .next-arrow ion-icon {
     position: absolute;
-    bottom: -50px;
+    top: -30px;
     right: 35%;
   }
   .rm-footer {
-    margin-top: 486px;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
   }
 }
 
@@ -148,24 +181,28 @@ h3 {
   #slick-reform {
     width: 230px;
     height: 460px;
+    margin-top: 60px;
   }
   .img-rm {
     display: block;
     margin: 0 auto;
-    width: 62%;
+    width: 100%;
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
-    bottom: -70px;
+    top: -20px;
     left: 25%;
   }
   #rm-info .next-arrow ion-icon {
     position: absolute;
-    bottom: -70px;
+    top: -20px;
     right: 30%;
   }
   .rm-footer {
-    margin-top: 3.0625rem;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
   }
 }
 
@@ -173,11 +210,12 @@ h3 {
   #slick-reform {
     width: 230px;
     height: 520px;
+    margin-top: 50px;
   }
   .img-rm {
     display: block;
-    margin: 0 auto;
-    width: 75%;
+    margin: 10px auto;
+    width: 80%;
   }
   .rm-container p {
     font-size: 1.125rem;
@@ -186,16 +224,19 @@ h3 {
   }
   #rm-info .prev-arrow ion-icon {
     position: absolute;
-    bottom: -50px;
+    top: -30px;
     left: 25%;
   }
   #rm-info .next-arrow ion-icon {
     position: absolute;
-    bottom: -50px;
+    top: -30px;
     right: 30%;
   }
   .rm-footer {
-    margin-top: 6.0625rem;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
   }
   .rm-footer p {
     font-size: 0.875rem;
