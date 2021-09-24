@@ -68,7 +68,6 @@ h3 {
 #slick-reform {
   margin: 20px;
   width: 500px;
-  /* height: 505px; */
   border: none;
   border-radius: 10px;
   background: hsl(187, 100%, 39%);
@@ -92,21 +91,6 @@ h3 {
   text-align: center;
   margin: 5px 0;
 }
-
-/* .rm-gender {
-}
-
-.rm-species {
-}
-
-.rm-location {
-}
-
-.rm-origin {
-}
-
-.rm-status {
-} */
 
 .rm-footer {
   text-align: center;
