@@ -62,7 +62,3 @@
 ### Watch
 
 - Ability to list episodes and playable clips.
-
-### Episodes
-
-- Playable clips

@@ -9,9 +9,6 @@ $(function () {
   // Cached Element References
   const $rmInfo = $('#rm-info');
   const $year = $('span#year');
-
-  // Event Listeners
-
   // Functions
   init();
 
