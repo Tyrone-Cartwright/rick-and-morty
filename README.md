@@ -61,6 +61,6 @@
 
 - Ability to list episodes and playable clips.
 
-### episodes
+### Episodes
 
 - Playable clips
