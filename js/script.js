@@ -18,6 +18,7 @@ $(function () {
   }
 
   function getRmData() {
+    event.preventDefault();
     // use $.ajax to fetch data from rick and morty api
     $.ajax(`${BASE_URL}`).then(
       function (data) {
