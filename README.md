@@ -23,6 +23,8 @@
 
 - ### Rick and Morty API [https://rickandmortyapi.com/documentation/#rest]
 
+- ### Site hosted deployed with Github Pages and Namecheap
+
 # Screenshots
 
 ### Title
