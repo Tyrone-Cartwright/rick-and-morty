@@ -63,6 +63,17 @@ $(function () {
         '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
       responsive: [
         {
+          breakpoint: 1445,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            prevArrow:
+              '<span class="prev-arrow"><ion-icon name="chevron-back-outline"></ion-icon></span>',
+            nextArrow:
+              '<span class="next-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></span>',
+          },
+        },
+        {
           breakpoint: 1025,
           settings: {
             slidesToShow: 3,
